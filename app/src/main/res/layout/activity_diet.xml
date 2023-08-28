@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7E7"
+    tools:context=".activity.DietActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type 1"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="40sp"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tôt le matin"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:text="Café noir et biscuits digestifs./n
+Thé vert, miel et citron"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Petit-déjeuner"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textStyle="bold"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Deux à trois idlis avec chutney et sambar (utilisez moins de sel).
+Deux dosas avec chutney et sambar (utilisez moins de sel).
+Un petit bol d'upma avec du chutney."
+                    android:paddingStart="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Déjeuner"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingStart="20dp"
+                    android:text="Un bol de riz et de sambar avec beaucoup de légumes. Un bol de caillé.
+Un bol de riz avec un petit bol de curry de légumes et un ragoût de poisson ou de poulet. Un bol de caillé."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Collations du soir"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/glucosio_fab_glucose"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:text="Thé vert avec du riz en flocons rôti avec des feuilles de curry et de l'ail haché.
+Café noir sans sucre et pakoda ruban cuit."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Dîner"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textStyle="bold"
+                    android:paddingStart="10dp"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:text="Soupe claire aux légumes ou soupe claire au poulet et aux légumes et deux chapatis.
+Mélanger le curry de légumes, deux chapatis et le curd."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type 2"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textSize="40sp"/>
+
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Petit-déjeuner"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="• 1/2 tasse d'avoine cuite dans 1/2 tasse de lait 2 % et d'eau
+• 1 prune moyenne, hachée
+• 4 moitiés de noix, hachées"
+                    android:paddingStart="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Collation"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textStyle="bold"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="/4 tasse de bleuets
+• 1/4 de yogourt grec nature sans gras
+Garnir les bleuets de yogourt."
+                    android:paddingStart="20dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Déjeuner"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingStart="20dp"
+                    android:text="Fondant de dinde et de cheddar aux pommes
+• 2 tranches de pain de blé entier
+• 2 c. moutarde à l'ancienne, divisée
+• 1/2 pomme moyenne, tranchée
+• 2 oz. dinde de charcuterie à faible teneur en sodium
+• 2 cuillères à soupe. fromage cheddar râpé, divisé
+• 1 tasse de légumes verts mélangés"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Collation du soir"
+                    android:paddingStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/glucosio_fab_glucose"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView141"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:text="• 1/2 pomme moyenne, tranchée
+• 1/2 c. Miel
+• Pincée de cannelle"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Dîner"
+                    android:textColor="@color/glucosio_fab_glucose"
+                    android:textStyle="bold"
+                    android:paddingStart="10dp"
+
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:text="• 2 1/2 tasses de soupe aux légumes pour perdre du poids
+• 1 portion de toast au fromage de chèvre et au romarin"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+</RelativeLayout>

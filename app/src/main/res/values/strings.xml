@@ -1,0 +1,562 @@
+<resources>
+    <string name="app_name">DiabeteControle</string>
+    <string name="intro_head_1">DiabeteControle</string>
+    <string name="intro_head_2">Tableau BP pour tous</string>
+    <string name="intro_head_3">Conseils pour une alimentation saine</string>
+    <string name="into_desc_1">DiabeteControle vous aide à suivre votre diabète et votre tension artérielle, tout en donnant les meilleures suggestions d\'activites sportives et de régimes.</string>
+    <string name="into_desc_2">Les données sur les niveaux de sucre et la pression artérielle sont affichées dans des graphiques pour une meilleure
+         compréhension.</string>
+    <string name="into_desc_3">Les conseils sur: alimentation sont donnés en fonction de votre etat de santé.</string>
+    <string name="btnString_next">Ignorer</string>
+    <string name="btnString_back">Retour</string>
+    <string name="btnString_finish">Terminer</string>
+    <string name="title_activity_main3">Contrôle du diabète</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">arunkumar@bharath.com</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="dash_myAccount">Mon compte</string>
+    <string name="dash_Learn">Apprendre</string>
+    <string name="dash_Chart">Graphique</string>
+    <string name="dash_Diet">Régime/Nutrition</string>
+    <string name="dash_Med">Médicaments</string>
+    <string name="dash_content_one">Consultez votre profil et votre suggestion ici.</string>
+    <string name="dash_content_two">Connaître les détails les plus importants sur le diabète</string>
+    <string name="dash_content_three">Tableau de tension artérielle avec niveaux.</string>
+    <string name="dash_content_four">Obtenez votre régime et votre nutrition</string>
+    <string name="dash_content_five">Le meilleur médicament à votre disposition</string>
+    <string name="nav_others">Autres</string>
+    <string name="nav_about">À propos</string>
+    <string name="nav_exit">Quitter</string>
+    <string name="login_password_hint">Entrez votre mot de passe</string>
+    <string name="login_Login_btn">Connexion</string>
+    <string name="login_signup_prompt">Vous n\'êtes pas un utilisateur? S\'inscrire</string>
+    <string name="login_header">CONNEXION</string>
+    <string name="login_email_hint">Entrez votre Emain</string>
+    <string name="signup_login_prompt">Déjà un utilisateur? Connexion</string>
+    <string name="signup_confirm_pwd">Confirmer votre mot de passe</string>
+    <string name="dash_Diet_explore">Explorer l\'alimentation/la nutrition</string>
+    <string name="dash_Med_explore">Explorer les médicaments</string>
+    <string name="signup_header">Inscrivez-vous gratuitement</string>
+    <string name="signup_name_prompt">Entrez votre nom</string>
+    <string name="signup_dob_hint">Date de naissance</string>
+    <string name="signup_name_hint">Entrez votre nom</string>
+    <string name="signup_button">S\'inscrire</string>
+    <string name="signup_weight_hint">Entrez votre poids</string>
+    <string name="signup_height_hint">Entrez votre taille</string>
+    <string name="error_valid_email_password">Mot de passe ou email incorrect</string>
+    <string name="error_message_email">Veuillez remplir correctement</string>
+    <string name="error_email_exists">E-mail en double</string>
+    <string name="success_message">Succès</string>
+    <string name="error_password_match">ne correspond pas</string>
+    <string name="error_message_password">mot de passe invalide</string>
+    <string name="error_message_name">nom invalide</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="action_feedback">Envoyer des commentaires</string>
+    <string name="action_invite">Inviter un ami</string>
+    <string name="tab_overview">Aperçu</string>
+    <string name="tab_history">Historique</string>
+    <string name="tab_tips">Conseil</string>
+    <string name="activity_main_add_new_reading">Ajouter une nouvelle lecture</string>
+
+    <string name="title_activity_hello">Hello.</string>
+    <string name="helloactivity_headline">Bonjour.</string>
+    <string name="helloactivity_terms">Conditions d\'utilisation</string>
+    <string name="helloactivity_subhead">Nous avons juste besoin de quelques informations.</string>
+    <string name="helloactivity_country">Pays</string>
+    <string name="helloactivity_age">Age</string>
+    <string name="helloactivity_age_invalid">Veuillez entrer un âge valide.</string>
+
+    <string name="helloactivity_gender">Genre</string>
+    <string name="helloactivity_gender_list_1">Homme</string>
+    <string name="helloactivity_gender_list_2">Femme</string>
+    <string name="helloactivity_gender_list_3">Autre</string>
+
+    <string-array name="helloactivity_gender_list" translatable="false">
+        <item>@string/helloactivity_gender_list_1</item>
+        <item>@string/helloactivity_gender_list_2</item>
+        <item>@string/helloactivity_gender_list_3</item>
+    </string-array>
+
+    <string name="helloactivity_spinner_diabetes_type">Type de diabète</string>
+    <string name="helloactivity_spinner_diabetes_type_0">Pre diabète</string>
+    <string name="helloactivity_spinner_diabetes_type_1">Type 1</string>
+    <string name="helloactivity_spinner_diabetes_type_2">Type 2</string>
+    <string name="helloactivity_spinner_diabetes_gdm">Gestationnel</string>
+    <string name="helloactivity_spinner_diabetes_lada">LADA</string>
+
+    <string-array name="helloactivity_diabetes_type" translatable="false">
+        <item>@string/helloactivity_spinner_diabetes_type_1</item>
+        <item>@string/helloactivity_spinner_diabetes_type_2</item>
+        <item>@string/helloactivity_spinner_diabetes_gdm</item>
+        <item>@string/helloactivity_spinner_diabetes_lada</item>
+    </string-array>
+
+    <string name="helloactivity_spinner_preferred_glucose_unit">Unité de glucose préférée</string>
+    <string name="helloactivity_spinner_preferred_glucose_unit_1">mg/dL</string>
+    <string name="helloactivity_spinner_preferred_glucose_unit_2">mmol/L</string>
+
+    <string-array name="helloactivity_preferred_glucose_unit" translatable="false">
+        <item>@string/helloactivity_spinner_preferred_glucose_unit_1</item>
+        <item>@string/helloactivity_spinner_preferred_glucose_unit_2</item>
+    </string-array>
+
+    <string name="preferences_spinner_preferred_a1c_unit">Preferred HbA1c unit</string>
+    <string name="preferences_spinner_preferred_a1c_unit_1">percentage</string>
+    <string name="preferences_spinner_preferred_a1c_unit_2">mmol/mol</string>
+
+    <string-array name="preferences_preferred_a1c_unit" translatable="false">
+        <item>@string/preferences_spinner_preferred_a1c_unit_1</item>
+        <item>@string/preferences_spinner_preferred_a1c_unit_2</item>
+    </string-array>
+
+    <string name="preferences_spinner_preferred_weight_unit">Unité de poids préférée</string>
+    <string name="preferences_spinner_preferred_weight_unit_1">kilogrammes</string>
+    <string name="preferences_spinner_preferred_weight_unit_2">livres</string>
+
+    <string-array name="preferences_preferred_weight_unit" translatable="false">
+        <item>@string/preferences_spinner_preferred_weight_unit_1</item>
+        <item>@string/preferences_spinner_preferred_weight_unit_2</item>
+    </string-array>
+
+    <string name="helloactivity_share_data">Partager des données anonymes pour la recherche.</string>
+    <string name="helloactivity_hint_settings">Vous pourrez les modifier ultérieurement dans les paramètres.</string>
+    <string name="helloactivity_button_next">SUIVANT</string>
+    <string name="helloactivity_button_start">COMMENCER</string>
+    <string name="helloactivity_button_retour">RETOUR</string>
+
+    <string name="fragment_empty_text">Aucune information disponible pour le moment. \n Ajoutez votre première lecture ici.</string>
+    <string name="dialog_add_title">Ajouter un taux de glycémie</string>
+    <string name="dialog_add_concentration">Concentration</string>
+    <string name="dialog_add_concentration_um" translatable="false">mg/dL</string>
+    <string name="dialog_add_date">Date</string>
+    <string name="dialog_add_time">Heure</string>
+    <string name="dialog_add_measured">Mesuré</string>
+    <string name="dialog_add_type_1">Avant le petit-déjeuner</string>
+    <string name="dialog_add_type_2">Après le petit-déjeuner</string>
+    <string name="dialog_add_type_3">Avant le déjeuner</string>
+    <string name="dialog_add_type_4">Après le déjeuner</string>
+    <string name="dialog_add_type_5">Avant le dîner</string>
+    <string name="dialog_add_type_6">Après le dîner</string>
+    <string name="dialog_add_type_7">Collation</string>
+    <string name="dialog_add_type_8">Heure du coucher</string>
+    <string name="dialog_add_type_9">Nuit</string>
+    <string name="dialog_add_type_10">Glycémie à jeun</string>
+    <string name="dialog_add_type_11">Revérifier</string>
+    <string name="dialog_add_type_12">Autre</string>
+    <string-array name="dialog_add_measured_list" translatable="false">
+        <item>@string/dialog_add_type_1</item>
+        <item>@string/dialog_add_type_2</item>
+        <item>@string/dialog_add_type_3</item>
+        <item>@string/dialog_add_type_4</item>
+        <item>@string/dialog_add_type_5</item>
+        <item>@string/dialog_add_type_6</item>
+        <item>@string/dialog_add_type_7</item>
+        <item>@string/dialog_add_type_8</item>
+        <item>@string/dialog_add_type_9</item>
+        <item>@string/dialog_add_type_10</item>
+        <item>@string/dialog_add_type_11</item>
+        <item>@string/dialog_add_type_12</item>
+    </string-array>
+    <string name="dialog_add_cancel">ANNULER</string>
+    <string name="dialog_add_add">AJOUTER</string>
+    <string name="dialog_error2">Veuillez saisir une valeur valide.</string>
+    <string name="dialog_error">Veuillez remplir tous les champs.</string>
+    <string name="dialog_edit">Modifier</string>
+    <string name="dialog_delete">Supprimer</string>
+
+    <string name="fragment_history_snackbar_text">1 lecture supprimée</string>
+    <string name="fragment_history_snackbar_action">ANNULER</string>
+
+    <string name="fragment_overview_last_reading">Dernière vérification</string>
+    <string name="fragment_overview_trend">Tendance au cours du mois passé:</string>
+    <string name="fragment_overview_trend_positive">dans la plage et en bonne santé</string>
+    <string name="fragment_overview_selector_month">Mois</string>
+    <string name="fragment_overview_selector_day">Journée</string>
+    <string name="fragment_overview_selector_week">Semaine</string>
+
+    <string-array name="fragment_overview_selector_range" translatable="false">
+        <item>@string/fragment_overview_selector_day</item>
+        <item>@string/fragment_overview_selector_week</item>
+        <item>@string/fragment_overview_selector_month</item>
+    </string-array>
+    <string-array name="fragment_overview_selector_metric" translatable="false">
+        <item>@string/fab_glucose</item>
+        <item>@string/fab_HB1AC</item>
+        <item>@string/fab_cholesterol</item>
+        <item>@string/fab_pressure</item>
+        <item>@string/fab_ketones</item>
+        <item>@string/fab_weight</item>
+    </string-array>
+    <string name="tip_example" translatable="false">Utilisez moins de fromage dans vos recettes et repas. La mozzarella fraîche conditionnée dans de l\'eau et le fromage suisse contiennent généralement moins de sodium.</string>
+    <string name="preferences_about">À propos</string>
+    <string name="preferences_experimental_title" translatable="false">Voici les dragons:/</string>
+    <string name="preferences_experimental">Ces fonctionnalités sont expérimentales et peuvent ne pas fonctionner entièrement et sont destinées aux premiers tests des utilisateurs. N\'oubliez pas que vous pouvez secouer votre téléphone pour nous faire part de vos commentaires.</string>
+    <string name="version" translatable="false">1.5.0 (Vindaloo)</string>
+    <string name="preferences_version">Version</string>
+    <string name="preferences_coming_soon">Prochainement...</string>
+    <string name="preferences_terms">Conditions d\'utilisation</string>
+    <string name="glucose_reading_type">Type</string>
+    <string name="weight">Poids</string>
+    <string name="dialog_add_custom_type">Catégorie de mesure personnalisée</string>
+
+    <string-array name="tips_all">
+        <item>Mangez plus d\'aliments frais et non transformés pour aider à réduire l\'apport en glucides et en sucre.</item>
+        <item>Lisez l\'étiquette nutritionnelle sur les aliments et les boissons emballés pour contrôler l\'apport en sucre et en glucides.</item>
+        <item>Lorsque vous mangez au restaurant, demandez du poisson ou de la viande grillée sans beurre ni huile supplémentaire.</item>
+        <item>Lorsque vous mangez au restaurant, demandez-leur s\'ils ont des plats à faible teneur en sodium.</item>
+        <item>Lorsque vous mangez au restaurant, mangez les mêmes portions qu\'à la maison et emportez les restes pour emporter.</item>
+        <item>Lorsque vous mangez au restaurant, demandez des aliments hypocaloriques, comme des vinaigrettes, même s\'ils ne figurent pas au menu.</item>
+        <item>Lorsque vous mangez au restaurant, demandez des substitutions. Au lieu de frites, demandez une double commande d\'un légume comme une salade, des haricots verts ou du brocoli.</item>
+        <item>Lorsque vous mangez au restaurant, commandez des aliments qui ne sont ni panés ni frits.</item>
+        <item>Lorsque vous mangez au restaurant, demandez des sauces, du jus de viande et des vinaigrettes "à part".</item>
+        <item>Sans sucre ne signifie pas vraiment sans sucre. Cela signifie 0,5 gramme (g) de sucre par portion, alors faites attention à ne pas consommer trop d\'articles sans sucre.</item>
+        <item>S\'orienter vers un poids santé aide à contrôler la glycémie. Votre médecin, un diététiste et un entraîneur de fitness peuvent vous aider à démarrer sur un plan qui fonctionnera pour vous.</item>
+        <item>Vérifier votre taux sanguin et le suivre dans une application comme DiabetbeControle deux fois par jour vous aidera à être conscient des résultats de vos choix alimentaires et de votre mode de vie.</item>
+        <item>Faites des tests sanguins HbA1c pour connaître votre glycémie moyenne au cours des 2 à 3 derniers mois. Votre médecin doit vous dire à quelle fréquence ce test devra être effectué.</item>
+        <item>Le suivi de la quantité de glucides que vous consommez peut être tout aussi important que la vérification des taux sanguins, car les glucides influencent la glycémie. Parlez à votre médecin ou à un diététicien de l\'apport en glucides.</item>
+        <item>Le contrôle de la tension artérielle, du cholestérol et des taux de triglycérides est important car les diabétiques sont sensibles aux maladies cardiaques.</item>
+        <item>Il existe plusieurs approches diététiques que vous pouvez adopter pour manger plus sainement et aider à améliorer les résultats de votre diabète. Demandez conseil à un diététicien sur ce qui fonctionnera le mieux pour vous et votre budget.</item>
+        <item>Travailler à faire de l\'exercice régulièrement est particulièrement important pour les personnes atteintes de diabète et peut vous aider à maintenir un poids santé. Discutez avec votre médecin des exercices qui vous conviendront.</item>
+        <item>Le manque de sommeil peut vous faire manger plus particulièrement des choses comme la malbouffe et, par conséquent, peut avoir un impact négatif sur votre santé. Assurez-vous d\'avoir une bonne nuit de sommeil et consultez un spécialiste du sommeil si vous rencontrez des difficultés.</item>
+        <item>Le stress peut avoir un impact négatif sur le diabète. Parlez à votre médecin ou à un autre professionnel de la santé de la façon de gérer le stress.</item>
+        <item>Consulter votre médecin une fois par an et avoir une communication régulière tout au long de l\'année est importante pour les diabétiques afin de prévenir l\'apparition soudaine de problèmes de santé associés.</item>
+        <item>Prenez votre médicament tel que prescrit par votre médecin, même de petites interruptions dans votre médicament peuvent avoir un impact sur votre glycémie et provoquer d\'autres effets secondaires. Si vous avez des difficultés à vous souvenir, demandez à votre médecin des informations sur la gestion des médicaments et les options de rappel.</item>
+    </string-array>
+    <string-array name="tips_all_age_plus_40">
+        <item>Les diabétiques âgés peuvent être plus à risque de problèmes de santé associés au diabète. Discutez avec votre médecin de la façon dont votre âge joue un rôle dans votre diabète et de ce qu\'il faut surveiller.</item>
+        <item>Limitez la quantité de sel que vous utilisez pour cuire les aliments et que vous ajoutez aux repas après la cuisson.</item>
+    </string-array>
+    <string name="assistant">Aide</string>.
+    <string name="assistant_action_update">METTRE À JOUR MAINTENANT</string>
+    <string name="assistant_action_ok">OK, COMPRIS</string>
+    <string name="assistant_action_feedback">ENVOYER DES COMMENTAIRES</string>
+    <string name="assistant_action_live_chat">CHAT EN DIRECT</string>
+    <string name="assistant_action_reading">AJOUTER UNE LECTURE</string>
+    <string name="assistant_action_try"> </string>
+    <string name="assistant_weight_title">Mettre à jour votre poids</string>
+    <string name="assistant_weight_desc">Assurez-vous de mettre à jour votre poids afin que DiabeteControle dispose des informations les plus précises.</string>
+    <string name="assistant_research_title">Mettre à jour votre opt-in de recherche</string>
+    <string name="assistant_research_desc">Vous pouvez toujours activer ou désactiver le partage de la recherche sur le diabète, mais n\'oubliez pas que toutes les données partagées sont entièrement anonymes. Nous partageons uniquement les données démographiques et les tendances de la glycémie.</string>
+    <string name="assistant_categories_title">Créer des catégories</string>
+    <string name="assistant_categories_desc">DiabeteControle est livré avec des catégories par défaut pour la saisie de glucose, mais vous pouvez créer des catégories personnalisées dans les paramètres pour répondre à vos besoins uniques.</string>
+    <string name="assistant_check_title">Vérifier ici souvent</string>
+    <string name="assistant_check_desc">L\'assistant DiabeteControle fournit des conseils réguliers et continuera à s\'améliorer, alors vérifiez toujours ici les actions utiles que vous pouvez prendre pour améliorer votre expérience DiabeteControle et pour d\'autres conseils utiles.</string>
+    <string name="assistant_feedback_title">Envoyer des commentaires</string>
+    <string name="assistant_feedback_desc">Si vous rencontrez des problèmes techniques ou avez des commentaires sur DiabeteControle, nous vous encourageons à les soumettre dans le menu des paramètres afin de nous aider à améliorer DiabeteControle.</string>
+    <string name="assistant_reading_title">Ajouter une lecture</string>
+    <string name="assistant_reading_desc">Assurez-vous d\'ajouter régulièrement vos mesures de glycémie afin que nous puissions vous aider à suivre votre glycémie au fil du temps.</string>
+    <string name="assistant_export_title">Exporter vos données</string>
+    <string name="assistant_export_desc">L\'objectif de ce projet est de développer une application Android qui fournit un niveau de pression artérielle gérable efficacement en améliorant l\'alimentation, l\'activité. En fin de compte, en prévenant ou en retardant d\'autres complications du diabète</string>
+    <string name="assistant_calculator_a1c_title">À propos du diabète</string>
+    <string name="assistant_calculator_a1c_desc">Le diabète sucré est un problème de santé métabolique caractérisé par une glycémie élevée. Elle est causée par une production insuffisante d\'insuline dans le corps ou les cellules du corps ne répondent pas bien à l\'insuline ou une combinaison des deux facteurs. Les types de diabète les plus courants sont le type 1, le type 2
+     , et diabète gestationnel. Si vous souffrez de diabète de type 1, votre corps ne fabrique pas d\'insuline. Si vous souffrez de diabète de type 2, votre corps n\'utilise pas bien l\'insuline. Le diabète gestationnel se développe chez certaines femmes lorsqu\'elles sont enceintes. La plupart du temps, ce type de diabète disparaît après la naissance du bébé.</string>
+    <string-array name="assistant_titles" translatable="false">
+        <item>@string/assistant_calculator_a1c_title</item>
+    </string-array>
+    <string-array name="assistant_descriptions" translatable="false">
+        <item>@string/assistant_calculator_a1c_desc</item>
+    </string-array>
+
+    <string-array name="assistant_actions" translatable="false">
+        <item>@string/assistant_action_try</item>
+    </string-array>
+
+    <string name="helloactivity_spinner_preferred_range">Plage préférée</string>
+    <string name="helloactivity_spinner_preferred_range_1" translatable="false">ADA</string>
+    <string name="helloactivity_spinner_preferred_range_2" translatable="false">AACE</string>
+    <string name="helloactivity_spinner_preferred_range_3" translatable="false">UK NICE</string>
+    <string name="helloactivity_spinner_preferred_range_4">Plage personnalisée</string>
+    <string name="helloactivity_preferred_range_min">Valeur minimale</string>
+    <string name="helloactivity_preferred_range_max">Valeur maximale</string>
+    <string name="helloactivity_language">Langue</string>
+
+    <string-array name="helloactivity_preferred_range" translatable="false">
+        <item>@string/helloactivity_spinner_preferred_range_1</item>
+        <item>@string/helloactivity_spinner_preferred_range_2</item>
+        <item>@string/helloactivity_spinner_preferred_range_3</item>
+        <item>@string/helloactivity_spinner_preferred_range_4</item>
+    </string-array>
+    <string name="menu_support_error1">Aucune application de messagerie n\'est installée. Veuillez envoyer un e-mail à info@aikinggroup.tech</string>
+    <string-array name="menu_support_options" translatable="false">
+        <item>@string/menu_support_forum</item>
+    </string-array>
+
+    <string-array name="menu_backup_options" translatable="false">
+        <item>@string/menu_backup_csv</item>
+    </string-array>
+
+    <string name="invitation_title">Inviter d\'autres personnes</string>
+    <string name="invitation_message">Essayez DiabeteControle, une application pour la gestion et la recherche sur le diabète.</string>
+    <string name="invitation_cta">Essayez DiabeteControle</string>
+
+    <string name="preferences_privacy">Confidentialité</string>
+    <string name="helloactivity_textview_tos">En utilisant DiabeteControle, vous acceptez les</string>
+    <string name="preferences_backup_google_drive">Google Drive</string>
+    <string name="preferences_about_glucosio">À propos de DiabeteControle</string>
+    <string name="preferences_rate">Évaluer DiabeteControle</string>
+    <string name="preferences_licences_open">Licences open source</string>
+    <string name="preferences_contributors">Contributeurs</string>
+    <string name="preferences_freestyle_libre">Activer la prise en charge de FreeStyle Libre®</string>
+    <string name="preferences_freestyle_libre_experimental">EXPERIMENTAL: Activer la prise en charge de FreeStyle Libre®</string>
+    <string name="preferences_font_dyslexia_experimental">EXPERIMENTAL: Augmenter la lisibilité pour les utilisateurs dyslexiques</string>
+    <string name="preferences_font_dyslexia">Améliorer la lisibilité pour les utilisateurs dyslexiques</string>
+    <string name="preferences_analytics_opt_in">Activer l\'analyse</string>
+    <string name="allow">Autoriser</string>
+    <string name="optout">Désactivation</string>
+    <string name="analytics_usage">Utilisation d\'Analytics</string>
+    <string name="analytics_usage_overview">
+         DiabeteControle collecte les plantages et autres analyses pour aider à identifier les bogues et améliorer le service pour les utilisateurs.
+         Nous ne vendons ni ne partageons aucune des données collectées. Vous pouvez vous désinscrire maintenant, mais vous pouvez également vous désinscrire
+         d\'analyse à tout moment en modifiant vos préférences sur l\'écran des paramètres.
+         Pouvons-nous collecter ces informations ?
+     </string>
+    <string name="about_donate">Médicaments</string>
+    <string name="reading_ok">OK</string>
+    <string name="reading_hypo">Hypoglycémie</string>
+    <string name="reading_low">Faible</string>
+    <string name="reading_high">Élevé</string>
+    <string name="reading_hyper">Hyperglycémie</string>
+
+
+    <!-- Future Strings Baked In Early For l10n -->
+    <!-- Exercise Types -->
+    <string name="dialog_add_exercisetype_1">Marcher tranquillement</string>
+    <string name="dialog_add_exercisetype_2">Marcher vite</string>
+    <string name="dialog_add_exercisetype_3">Jogging</string>
+    <string name="dialog_add_exercisetype_4">En cours d\'exécution</string>
+    <string name="dialog_add_exercisetype_5">Natation</string>
+    <string name="dialog_add_exercisetype_6">Danse</string>
+    <string name="dialog_add_exercisetype_7">Patin à roulettes</string>
+    <string name="dialog_add_exercisetype_8">Vélo</string>
+    <string name="dialog_add_exercisetype_9">Golf</string>
+    <string name="dialog_add_exercisetype_10">Soft-ball</string>
+    <string name="dialog_add_exercisetype_11">Badminton</string>
+    <string name="dialog_add_exercisetype_12">Football</string>
+    <string name="dialog_add_exercisetype_13">Basket-ball</string>
+    <string name="dialog_add_exercisetype_14">Volley-ball</string>
+    <string name="dialog_add_exercisetype_15">Cricket</string>
+    <string name="dialog_add_exercisetype_16">Frisbee</string>
+    <string name="dialog_add_exercisetype_17">Ski</string>
+    <string name="dialog_add_exercisetype_18">Boxe</string>
+    <string name="dialog_add_exercisetype_19">Tennis</string>
+    <string name="dialog_add_exercisetype_20">Tennis de table</string>
+    <string name="dialog_add_exercisetype_21">Arts martiaux</string>
+    <string name="dialog_add_exercisetype_22">Escalade</string>
+    <string name="dialog_add_exercisetype_23">Lutte</string>
+    <string name="dialog_add_exercisetype_24">Randonnée</string>
+    <string name="dialog_add_exercisetype_25">Travail de jardin</string>
+
+    <!-- Future Strings Baked In Early For l10n -->
+    <!-- Chaînes d'introduction -->
+    <string name="intro_title1">Bienvenue</string>
+    <string name="intro_para1">DiabeteControle est une application gratuite pour gérer votre diabète</string>
+    <string name="intro_title2">Journalisation et tendances</string>
+    <string name="intro_para2">DiabeteControle facilite l\'enregistrement des niveaux de glucose et la visualisation des tendances</string>
+    <string name="intro_title3">Soutenir la recherche sur le diabète</string>
+    <string name="intro_para3">DiabeteControle vous permet d\'accepter de partager des tendances anonymes avec des chercheurs universitaires sur le diabète</string>
+    <string name="intro_title4">axé sur la confidentialité</string>
+    <string name="intro_para4">DiabeteControle prend votre vie privée au sérieux et ne partage les tendances indéniables que si vous vous inscrivez</string>
+    <string name="intro_title5">Amélioration des résultats de santé</string>
+    <string name="intro_para5">DiabeteControle vous aide à suivre les tendances de votre glycémie et d\'autres paramètres de santé pour de meilleurs résultats de santé</string>
+
+    <!-- Future Strings Baked In Early For l10n -->
+    <!-- Chaînes de l'assistant intelligent -->
+
+    <string name="assistant_coachyesterday1">Vos taux de glucose hier étaient excellents!</string>
+    <string name="assistant_coachweek1">Vos niveaux de glucose cette semaine ont été formidables!</string>
+    <string name="assistant_coachmorning1">Votre glycémie du matin était parfaite!</string>
+    <string name="assistant_coachafternoon1">Votre glycémie de l\'après-midi était parfaite!</string>
+
+
+    <!-- Future Strings Baked In Early For l10n -->
+    <!-- Badges -->
+
+    <string name="badge_perfectweektitle1">Grande semaine</string>
+    <string name="badge_perfectweekdesc1">Vous avez obtenu le badge d\'une semaine de niveaux de glucose dans la plage! Excellent travail!</string>
+    <string name="badge_perfectmonthtitle1">Grand mois</string>
+    <string name="badge_perfectmonthdesc1">Vous avez obtenu le badge d\'un mois de niveaux de glucose dans la plage ! Excellent travail!</string>
+    <string name="badge_dataexporttitle1">Exporter des données</string>
+    <string name="badge_dataexportdesc1">Vous avez obtenu le badge d\'exportation de données pour être un utilisateur qui aime la portabilité des données! Excellent travail!</string>
+    <string name="badge_log100title1">Enregistré 100</string>
+    <string name="badge_log100desc1">Vous avez atteint le badge des 100 mesures de glycémie enregistrées! Excellent travail!</string>
+    <string name="badge_log250title1">Enregistré 250</string>
+    <string name="badge_log250desc1">Vous avez atteint le badge des 250 mesures de glycémie enregistrées! Excellent travail!</string>
+    <string name="badge_log500title1">Enregistré 500</string>
+    <string name="badge_log500desc1">Vous avez atteint le badge des 500 mesures de glycémie enregistrées! Excellent travail!</string>
+    <string name="badge_7daystitle1">7 jours</string>
+    <string name="badge_7daysdesc1">Vous avez obtenu le badge d\'enregistrement des 7 jours de glycémie constante! Excellent travail!</string>
+
+    <!-- Food Entry Labels -->
+    <string name="dialog_addfood_carbs">Glucides:</string>
+    <string name="dialog_addfood_protein">Protéine:</string>
+    <string name="dialog_addfood_sugars">Sucres:</string>
+    <string name="dialog_addfood_fat">Graisse:</string>
+
+
+    <!-- About DiabeteControle Strings -->
+
+    <string name="about_credits">Crédits</string>
+    <string name="about_contribute">Contribuer</string>
+    <string name="about_contributel10n">Contribuer à la traduction</string>
+    <string name="about_contributedev">Contribuer au développement</string>
+    <string name="about_discussion">Rejoignez notre communauté de discussion</string>
+    <string name="about_maillist">Inscrivez-vous à notre liste de diffusion</string>
+    <string name="assistant_archived">CONSEILS ARCHIVÉS</string>
+    <string name="dialog_export_title">Exporter des données</string>
+    <string name="activity_export_date_from">De:</string>
+    <string name="dialog_export_date_to">À:</string>
+    <string name="dialog_export_today">Choisir aujourd\'hui</string>
+    <string name="dialog_export_button">EXPORTER</string>
+    <string name="title_activity_export">Exporter des données</string>
+    <string name="dialog_export_all">Tout exporter</string>
+    <string name="share_using">Partager en utilisant</string>
+    <string name="share_subject">Données DiabeteControle</string>
+    <string name="activity_export_snackbar_1">"Exportation"</string>
+    <string name="activity_export_snackbar_2">lectures</string>
+    <string name="fragment_overview_permission_storage">DiabeteControle a besoin d\'une autorisation de stockage pour enregistrer une capture d\'écran</string>
+    <string name="fragment_overview_graph_export_true">Capture d\'écran enregistrée dans la galerie</string>
+    <string name="fragment_overview_graph_export_false">Erreur lors de l\'enregistrement de la capture d\'écran dans la galerie</string>
+    <string name="dialog_export_range">Plage d\'exportation</string>
+    <string name="activity_export_issue_generic">Un problème est survenu lors de l\'exportation des lectures. Veuillez réessayer.</string>
+    <string name="activity_export_no_readings_snackbar">Aucune lecture à exporter.</string>
+    <string name="wear_new_reading">Nouvelle lecture ajoutée</string>
+    <string name="dialog_add_weight">Poids</string>
+    <string name="dialog_add_ketones">Cétones</string>
+    <string name="dialog_add_pressure_min">Pression minimale</string>
+    <string name="dialog_add_pressure_max">Pression maximale</string>
+    <string name="dialog_add_cholesterol_total">Cholestérol total</string>
+    <string name="dialog_add_cholesterol_ldl">cholestérol LDL</string>
+    <string name="dialog_add_cholesterol_hdl">cholestérol HDL</string>
+    <string name="dialog_add_hb1ac">HbA1c</string>
+    <string name="title_activity_add_glucose">Ajouter une lecture de glucose</string>
+    <string name="title_activity_add_glucose_edit">Modifier la lecture de glucose</string>
+    <string name="title_activity_add_weight">Ajouter du poids corporel</string>
+    <string name="title_activity_add_weight_edit">Modifier le poids corporel</string>
+    <string name="title_activity_add_cholesterol">Ajouter un niveau de cholestérol</string>
+    <string name="title_activity_add_cholesterol_edit">Modifier le niveau de cholestérol</string>
+    <string name="title_activity_add_hb1ac">Ajouter HbA1c</string>
+    <string name="title_activity_add_hb1ac_edit">Modifier HbA1c</string>
+    <string name="title_activity_add_ketone">Ajouter des cétones</string>
+    <string name="title_activity_add_ketone_edit">Modifier les cétones</string>
+    <string name="title_activity_add_pressure">Ajouter la tension artérielle</string>
+    <string name="title_activity_add_pressure_edit">Modifier la tension artérielle</string>
+
+    <string name="fab_weight">Poids corporels</string>
+    <string name="fab_ketones">Cétones</string>
+    <string name="fab_pressure">Tension artérielle</string>
+    <string name="fab_cholesterol">Niveau de cholestérol</string>
+    <string name="fab_HB1AC">Cours HbA1c</string>
+    <string name="fab_glucose">Niveau de glycémie</string>
+    <string name="dialog_error_duplicate">Vous avez déjà une entrée pour cette heure. Veuillez le supprimer avant d\'ajouter une correction.</string>
+    <string name="freestylelibre_nfc_ready">S\'il vous plaît, placez votre téléphone sur le capteur et ne bougez pas jusqu\'à ce qu\'il vibre.</string>
+    <string name="freestylelibre_nfc_not_supported">Cet appareil ne prend pas en charge NFC.</string>
+    <string name="freestylelibre_nfc_not_enabled">NFC est désactivé.</string>
+    <string name="dialog_add_glucose_freestylelibre">Ajouter depuis FreeStyle Libre®</string>
+    <string name="freestylelibre_nfc_error">Erreur lors de l\'ouverture de la connexion NFC!</string>
+    <string name="dialog_add_glucose_freestylelibre_success">Lecture ajoutée avec succès depuis FreeStyle Libre®</string>
+    <string name="overview_hb1ac_error_no_data">Pas assez de données pour calculer l\'HbA1c</string>
+    <string name="overview_hb1ac">HbA1c:</string>
+    <string name="dialog_add_glucose_freestylelibre_added">Ajouté depuis votre FreeStyle Libre®</string>
+    <string name="activity_converter_a1c_glucose">TAUX DE GLYCÉMIE MOYEN</string>
+    <string name="activity_converter_a1c">HbA1c</string>
+    <string name="activity_converter_title">Calculateur HbA1c</string>
+    <string name="activity_converter_save">ENREGISTRER</string>
+    <string name="menu_support">Médecine</string>
+    <string name="menu_support_title">Comment pouvons-nous vous aider?</string>
+    <string name="menu_support_email">E-mail</string>
+    <string name="menu_support_live">Chat en direct</string>
+    <string name="menu_support_forum">Forum d\'assistance</string>
+    <string name="notification_reminder_glucose">Il est temps d\'enregistrer votre glycémie!</string>
+    <string name="notification_reminder_medication">Il est temps de prendre vos médicaments!</string>
+    <string name="overview_hb1ac_info">Ceci n\'est qu\'une estimation et est calculé en utilisant les moyennes des lectures du dernier mois. Bien que cette estimation utilise une formule largement acceptée pour l\'estimation de l\'HbA1c, nous encourageons les utilisateurs à ne l\'utiliser qu\'à titre d\'estimation.</string>
+    <string name="dialog_add_notes">Remarques</string>
+    <string name="sidebar_backup_export">Régime</string>
+    <string name="menu_backup_backup">Sauvegarde sur Google Drive</string>
+    <string name="menu_backup_restore">Restaurer</string>
+    <string name="menu_backup_csv">Exportation CSV</string>
+    <string name="activity_backup_drive_automatic">Sauvegarde automatique</string>
+    <string name="activity_backup_drive_desc">La sauvegarde de vos données sur Google Drive vous permet de restaurer toutes vos lectures en cas de perte ou de changement d\'appareil.</string>
+    <string name="activity_backup_drive_message_restart">Redémarrage pour appliquer les modifications...</string>
+    <string name="activity_backup_drive_desc_1">Synchroniser la base de données de DiabeteControle dans le cloud avec Google Drive.</string>
+    <string name="activity_backup_drive_desc_2">Vous pourrez restaurer toutes vos lectures si vous avez perdu ou changé de téléphone ou synchroniser les données de DiabeteControle entre vos appareils.</string>
+    <string name="activity_backup_drive_success">Base de données sauvegardée avec succès sur Drive</string>
+    <string name="activity_backup_drive_restore_success">Base de données restaurée avec succès depuis Drive</string>
+    <string name="activity_backup_drive_failed">Une erreur s\'est produite. Veuillez réessayer:</string>
+    <string name="activity_backup_drive_last">Dernière sauvegarde:</string>
+    <string name="activity_backup_drive_folder">Dossier de sauvegarde</string>
+    <string name="activity_backup_drive_folder_not_set">Non défini</string>
+    <string name="activity_backup_drive_button_backup">Sauvegarder maintenant</string>
+    <string name="activity_backup_drive_recent">Sauvegardes récentes</string>
+    <string name="activity_backup_drive_more">Voir plus de sauvegardes</string>
+    <string name="activity_backup_drive_dialog_restore_title">Revenir à la version précédente</string>
+    <string name="activity_backup_drive_dialog_restore_desc">La restauration de la sauvegarde écrasera toutes les données existantes avec la sauvegarde.</string>
+    <string name="activity_backup_drive_dialog_restore_details">Détails de la sauvegarde</string>
+    <string name="activity_backup_drive_dialog_restore_button_cancel">Annuler</string>
+    <string name="activity_backup_drive_dialog_restore_button_restore">Restaurer la sauvegarde</string>
+    <string name="activity_backup_drive_button_restore">Restaurer depuis Drive</string>
+    <string name="activity_backup_drive_error_restore">Impossible de trouver une sauvegarde valide à restaurer à partir de Drive</string>
+    <string name="activity_main_error_play_services">DiabeteControle a besoin des services Play pour activer la sauvegarde Google Drive.</string>
+    <string name="activity_main_dialog_csv_title">Exporter vers un fichier CSV</string>
+
+    <string-array name="fragment_history_selector" translatable="false">
+        <item>@string/fab_glucose</item>
+        <item>@string/fab_HB1AC</item>
+        <item>@string/fab_pressure</item>
+        <item>@string/fab_weight</item>
+    </string-array>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="activity_backup_drive_button_open_drive">Gérer sur Drive</string>
+    <string name="mm_Hg">mm/Hg</string>
+    <string name="mmol_mol">mmol/mol</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_mol_value">%1$s mmol/mol</string>
+    <string name="mmol_L_value">%1$s mmol/L</string>
+    <string name="mg_dL">mg/dL</string>
+    <string name="mg_dL_value">%1$s mg/dL</string>
+    <string name="preferences_graph_old">Revenir à l\'ancien graphique</string>
+    <string name="history">historique</string>
+    <string name="save">sauvegarder</string>
+    <string name="activity_reminders_title">Rappels</string>
+    <string name="reminders_notification_action">Ajouter une lecture</string>
+    <string name="glucosio_activity_reminders_empty">Aucun rappel défini. Ajoutez un nouveau rappel ici.</string>
+    <string name="activitiy_reminders_error_duplicate">Ce rappel existe déjà.</string>
+    <string name="activity_reminder_error_empty">Veuillez saisir un libellé valide.</string>
+    <string name="activity_reminder_add_label">Définir le libellé du rappel</string>
+    <string name="reminder_item_title_morning">Bonjour, Il est temps d\'entrée vos données dans DiabeteControle!</string>
+    <string name="reminder_item_title_afternoon">Bon apres-midi,Il est temps d\'entrée vos données dans DiabeteControle!</string>
+    <string name="reminder_item_title_evening">Bonsoir, Il est temps d\'entrée vos données dans DiabeteControle!</string>
+    <string name="reminder_item_title_generic">Il est temps de faire de mettre a jour vos données dans DiabeteControle!</string>
+    <string name="reminder_item_title_generic2">Time to log your glucose level!</string>
+    <string name="warning_internet_connection_required">Sorry but you need internet for this feature</string>
+
+    <string-array name="reminder_title_array" translatable="false">
+        <item>@string/reminder_item_title_generic</item>
+        <item>@string/reminder_item_title_generic2</item>
+    </string-array>
+    <string name="helloactivity_terms_accept">J\'ai lu et j\'accepte les conditions d\'utilisation</string>
+    <string name="helloactivity_terms_full">Le contenu du site Web et des applications de DiabeteControle, tels que le texte,
+         les graphiques, images et autres élémentssont uniquement à des fins d\'information.
+         Le contenu n\'est pas destiné à se substituer à un avis médical professionnel,
+         diagnostic ou traitement. Nous encourageons les utilisateurs de DiabeteControle à toujours demander conseil
+         de votre médecin ou d\'un autre professionnel de la santé qualifié pour toute question que vous pourriez avoir concernant un
+         condition. Ne négligez jamais un avis médical professionnel ou ne tardez pas à le demander en raison de
+         quelque chose que vous avez lu sur le site Web de DiabeteControle ou dans nos applications. Le site DiabeteControle,
+         Le blog, le wiki et tout autre contenu accessible par navigateur Web (site Web) ne doivent être utilisés que pour
+         l\'objectif décrit ci-dessus.\\n La confiance dans les informations fournies par DiabeteControle,
+         Les membres de l\'équipe DiabeteControle, les bénévoles et les autres personnes apparaissant sur le site Web ou dans nos applications sont
+         uniquement à vos risques et périls. Le Site et le Contenu sont fournis « tels quels ».</string>
+    <string name="activity_export_issue_permissions">DiabeteControle needs storage permissions to save exported data.</string>
+    <string name="firstname_str">Prenom(s)</string>
+    <string name="lastname_str">Nom</string>
+    <string name="lastname_firstname_str">Nom et Prenom(s)</string>
+
+    <string name="email_str">Email</string>
+    <string name="telephone_str">Telphone</string>
+    <string name="password_str">Creer un mot de passe</string>
+
+    <string name="agree_privacy_policy"><![CDATA[Agree ? Privacy & Policy]]></string>
+
+</resources>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7E7"
+    tools:context=".activity.MedicineActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type 1"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Injections à action rapide"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:text="insuline lispro (Humalog)
+insuline asparte (NovoLog)
+insuline glulisine (Apidra)
+insuline isophane, également appelée insuline NPH (Humulin N et Novolin N)"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Injections à action prolongée"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="insuline glargine (Toujeo)
+insuline détémir (Levemir)
+insuline dégludec (Tresiba)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Injections prémélangées"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:text="sont des combinaisons des types d'insuline ci-dessus. Tous agissent entre 5 minutes et 1 heure, et durent entre 10 et 24 heures :"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:text="insuline lispro protamine et insuline lispro (Humalog Mix50/50 et Humalog Mix75/25)
+insuline asparte protamine et insuline asparte (NovoLog Mix 50/50 et NovoLog Mix 70/30)
+Insuline NPH et insuline régulière (Humulin 70/30 et Novolin 70/30)"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:text="Analogues d'amyline : le pramlintide (Symlin) imite une autre hormone, l'amyline, qui joue un rôle dans la régulation du glucose."
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type 2"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulfonylurées inclu"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="glimépiride (Amaryl)
+glipizide (Glucotrol)
+glyburide (DiaBeta, Micronase, Glynase)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="chlorpropamide (Diabinese)
+tolazamide (Tolinase)
+tolbutamide (Orinase)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Méglitinides"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Les méglitinides augmentent également la sécrétion d'insuline. Ceux-ci pourraient également améliorer l'efficacité du corps à libérer de l'insuline pendant les repas, et comprennent :
+
+natéglinide (Starlix)
+répaglinide (Prandin)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biguanides"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thiazolidinediones"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="acarbose (Précose)
+miglitol (Glyset)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inhibiteurs de la dipeptidyl peptidase"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alogliptine (Nesina)
+linagliptine (Tradjenta)
+sitagliptine (Januvia)
+saxagliptine (Onglyza)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inhibiteurs du co-transporteur sodium-glucose 2"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="canagliflozine (Invokana)
+dapagliflozine (Farxiga)
+empagliflozine (Jardiance)
+ertugliflozine (Steglatro)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mimétiques des incrétines"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/glucosio_fab_glucose"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="exénatide (Byetta, Bydureon)
+liraglutide (Victoza)
+dulaglutide (Trulicity)
+lixisénatide (Adlyxine)
+sémaglutide (Ozempic)"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="20dp"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
