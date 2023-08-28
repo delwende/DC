@@ -1,9 +1,9 @@
-# SuDiet
+# DC
 The goal of this project is to develop an Android
 application which provides an effectively trackable blood
 pressure and glucose levels also by improving diet and medicine suggestions, ultimately,
 preventing or delaying further complications of diabetes. Using
-SuDiet, an agile software development approach, the team
+DC, an agile software development approach, the team
 gathered requirements, designed, and implemented a
 smartphone application utilizing the Android platforms. This
 application will help the users to identify certain information
